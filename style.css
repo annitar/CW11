@@ -1,0 +1,31 @@
+/*{}*/
+.text {
+    font-weight: 700;
+
+    font-style: italic;
+
+    font-size: 20px;
+
+    line-height: 175%;
+
+    width: 300px;
+
+    text-align: left;
+    text-transform: lowercase;
+
+}
+
+.text::first-letter {
+
+    font-size: 50px;
+
+    font-style: italic;
+
+    color: fuchsia;
+
+
+}
+.text::selection{
+    background-color: brown;
+    color: blueviolet;
+}
